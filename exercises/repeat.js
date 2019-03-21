@@ -9,7 +9,18 @@
  */
 
 //* Begin of tests
+function repeat(sentence , number){
+    let answer = ''
+        for (let i = 0 ; i < number; i++){
+            answer = answer + sentence;
+        }
+        return answer ;
+    }
+
 const assert = require('assert')
+
+
+
 
 assert.strictEqual(typeof repeat, 'function')
 assert.strictEqual(repeat.length, 2)

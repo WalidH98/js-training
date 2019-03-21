@@ -6,7 +6,13 @@
  *
  */
 
-
+function total(number){
+    let total= 0;
+    for (let i = 0; i < number.length; i++){
+        total+= number[i];
+    }
+return total
+}
 //* Begin of tests
 const assert = require('assert')
 

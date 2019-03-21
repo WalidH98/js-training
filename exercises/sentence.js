@@ -6,7 +6,9 @@
  *
  */
 
-
+function sentence(arrayToString){
+    return arrayToString.join(' ');
+}
 //* Begin of tests
 const assert = require('assert')
 

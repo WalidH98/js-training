@@ -8,7 +8,10 @@
  */
 
 // Your code :
-
+// Your code :
+function getFirst (elements){
+    return elements[0];
+}
 //* Begin of tests
 const assert = require('assert')
 

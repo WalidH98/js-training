@@ -6,6 +6,9 @@
  *
  */
 
+function words(StringParameter){
+    return StringParameter.split(' ');
+}
 
 //* Begin of tests
 const assert = require('assert')

@@ -6,7 +6,11 @@
  * and in lowercase for the rest of the string
  *
  */
-
+function capitalize(sentence){
+    let Majucsule = sentence.substring(0, 1);
+    let word = sentence.substring(1);
+    return Majucsule.toUpperCase() + word.toLowerCase();
+}
 
 //* Begin of tests
 const assert = require('assert')

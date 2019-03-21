@@ -13,6 +13,11 @@ const sourceObject = {
   bool: true,
   str: 'some text',
   log: console.log,
+
+}
+
+function get(key){
+  return sourceObject[key];
 }
 
 // Your code :
