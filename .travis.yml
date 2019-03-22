@@ -1,4 +1,4 @@
-script: node tester
+script: ./tester
 language: node_js
 node_js:
   - "node"
